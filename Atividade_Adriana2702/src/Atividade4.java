@@ -11,15 +11,11 @@ public class Atividade4 {
         System.out.print("Informe o custo de fábrica: ");
         double custoFabrica = carro.nextDouble();
 
-        double porcDistribuidor = 28;
+        double porcDistribuidor = custoFabrica * 0.28;
 
-        double resultado1 = (porcDistribuidor / custoFabrica) * 100;
+        double porcImposto = custoFabrica * 0.45;
 
-        double porcImposto = 45;
-
-        double resultado2 = (porcImposto / custoFabrica) * 100 ;
-
-        double resultado3 = resultado1 + resultado2 + custoFabrica;
+        double resultado3 = porcDistribuidor + porcImposto + custoFabrica;
 
         System.out.print(resultado3);
 

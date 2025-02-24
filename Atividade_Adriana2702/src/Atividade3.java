@@ -9,12 +9,12 @@ public class Atividade3 {
         Scanner reajuste = new Scanner(System.in);
 
         System.out.print("Informe o salário atual: ");
-        int salario = reajuste.nextInt();
+        double salario = reajuste.nextDouble();
 
         System.out.print("Informe a porcentagem do reajuste: ");
-        int porcentagem = reajuste.nextInt();
+        double porcentagem = reajuste.nextDouble();
 
-        double salario1 = (((double) salario * porcentagem) / 100) + (salario);
+        double salario1 = ((salario * porcentagem) / 100) + salario;
 
         System.out.print(salario1);
 

@@ -14,13 +14,12 @@ public class Atividade13 {
         double v2 = sc.nextDouble();
 
         if (v1 < v2) {
-            System.out.print(v1 + " " + v2);
+            System.out.print(v1 + " , " + v2);
         } else {
-            System.out.print(v2 + " " + v1);
+            System.out.print(v2 + " , " + v1);
         }
 
         sc.close();
-
     }
 
 }

@@ -24,6 +24,6 @@ public class Cachorro {
     // Método para ajustar a idade do cachorro
     public void ajustarIdade(int novaIdade) {
         this.idade = novaIdade;
-        System.out.println("A idade do cachorro " + nome + " foi ajustada para " + novaIdade + " anos");
-    }
+        System.out.println("A idade do cachorro " + nome + " foi ajustada para " + novaIdade + " anos");
+}
 }

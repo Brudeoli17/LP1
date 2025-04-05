@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Faca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FacaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Atividade_Adriana2403 correto/image/Arvore.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Atividade_Adriana2403 correto/image/Cachorro.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="Feito o menuController e acrescendado a faca">
+      <change afterPath="$PROJECT_DIR$/../Atividade_Adriana2403 correto/out/production/Atividade_Adriana2403 correto/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Faca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Faca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FacaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FacaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +55,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/bruna/Documents/Repositórios/LP1/Atividade_Adriana2403 correto/TesteFaca",
+    "last_opened_file_path": "C:/Users/bruna/Documents/Repositórios/LP1/Atividade_Adriana2403 correto/out/production/Atividade_Adriana2403 correto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,11 +80,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743882153745</updated>
-      <workItem from="1743882155013" duration="7644000" />
+      <workItem from="1743882155013" duration="10920000" />
     </task>
+    <task id="LOCAL-00001" summary="Feito o menuController e acrescendado a faca">
+      <option name="closed" value="true" />
+      <created>1743890178169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743890178169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feito o menuController e acrescendado a faca" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feito o menuController e acrescendado a faca" />
   </component>
 </project>

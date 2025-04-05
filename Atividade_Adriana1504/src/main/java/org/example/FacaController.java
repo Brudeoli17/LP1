@@ -29,4 +29,10 @@ public class FacaController {
         testeF.exibirInformacoes();
     }
 
+    @FXML
+    void afiar(ActionEvent event) {
+        Faca testeF = new Faca (txtMaterial.getText(), Double.valueOf(txtComprimento.getText()), txtAfiada.getText());
+        testeF.afiar();
+        txtMaterial.setText(""); txtComprimento.setText(""); txtAfiada.setText("");
+    }
 }

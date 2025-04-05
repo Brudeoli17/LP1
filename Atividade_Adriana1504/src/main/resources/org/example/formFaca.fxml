@@ -28,5 +28,6 @@
       <TextField fx:id="txtComprimento" layoutX="283.0" layoutY="107.0" prefHeight="44.0" prefWidth="274.0" />
       <TextField fx:id="txtAfiada" layoutX="283.0" layoutY="166.0" prefHeight="44.0" prefWidth="274.0" />
       <Button fx:id="btFacaInformacoes" layoutX="370.0" layoutY="290.0" mnemonicParsing="false" onAction="#exibirInformações" text="Informações" />
+      <Button fx:id="btFacaAfiar" layoutX="170.0" layoutY="290.0" mnemonicParsing="false" onAction="#afiar" text="Afiar" />
    </children>
 </AnchorPane>

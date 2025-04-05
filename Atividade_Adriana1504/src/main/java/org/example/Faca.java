@@ -25,6 +25,20 @@ public class Faca {
         System.out.println("Material: " + material + ", Comprimento: " + comprimento + " cm, Estado: " + estado);
     }
 
+    // Método para afiar a faca
+    public void afiar(){
+        String estado = Afiada;
+        switch (Afiada) {
+            case ("sim"):
+                estado = "A faca já está afiada";
+                System.out.println(estado);
+                break;
+            case ("não"):
+                estado = "A faca foi afiada";
+                System.out.println(estado);
+        }
+    }
+
     // Método para ajustar o comprimento da lâmina da faca
     public void ajustarComprimento(double novoComprimento) {
         this.comprimento = novoComprimento;

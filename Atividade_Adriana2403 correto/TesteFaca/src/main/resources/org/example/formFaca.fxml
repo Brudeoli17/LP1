@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.FacaController">
+   <children>
+      <Label layoutX="63.0" layoutY="65.0" prefHeight="59.0" prefWidth="123.0" text="Material">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtMaterial" layoutX="210.0" layoutY="73.0" prefHeight="43.0" prefWidth="179.0" />
+      <Label layoutX="63.0" layoutY="140.0" prefHeight="59.0" prefWidth="189.0" text="Comprimento">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtComprimento" layoutX="267.0" layoutY="148.0" prefHeight="43.0" prefWidth="179.0" />
+      <TextField fx:id="txtAfiada" layoutX="177.0" layoutY="208.0" prefHeight="43.0" prefWidth="179.0" />
+      <Label layoutX="63.0" layoutY="200.0" prefHeight="59.0" prefWidth="189.0" text="Afiada">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btFaca" layoutX="267.0" layoutY="327.0" mnemonicParsing="false" onAction="#adicionarAtributos" text="OK" />
+   </children>
+</AnchorPane>

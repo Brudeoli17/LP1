@@ -17,7 +17,9 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("formMenu.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("FacaController");;
         stage.setScene(scene);
         stage.show();
     }

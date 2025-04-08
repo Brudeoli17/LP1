@@ -2,8 +2,8 @@ package org.example;
 
 public class Arvore {
     private String especie;
-    private double altura;
-    private int idade;
+    private Double altura;
+    private Integer idade;
 
     public Arvore(String especie, double altura, int idade) {
         this.especie = especie;
@@ -15,14 +15,14 @@ public class Arvore {
         System.out.println("Espécie: " + this.especie + ", Altura: " + this.altura + " metros, Idade: " + this.idade + " anos");
     }
 
-    public void crescer(double metros) {
-        this.altura += metros;
-        System.out.println("A árvore da espécie " + this.especie + " cresceu " + metros + " metros e agora tem " + this.altura + " metros de altura.");
+    public void cresceu() {
+        Double novaAltura = altura + 10;
+        System.out.println("A árvore da espécie " + this.especie + " cresceu 10 metros e agora sua altura é de: " + novaAltura + "metros.");
     }
 
-    public void envelhecer(int anos) {
-        this.idade += anos;
-        System.out.println("A árvore da espécie " + this.especie + " envelheceu " + anos + " anos e agora tem " + this.idade + " anos.");
+    public void envelhecer() {
+        Integer novaIdade = idade + 5;
+        System.out.println("A árvore da espécie " + this.especie + " envelheceu 5 anos e agora sua idade é de: " + novaIdade + ".");
     }
 }
 

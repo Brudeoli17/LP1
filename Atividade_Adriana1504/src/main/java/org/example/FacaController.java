@@ -24,15 +24,15 @@ public class FacaController {
 
     @FXML
     void exibirInformações(ActionEvent event) {
-        Faca testeF = new Faca (txtMaterial.getText(), Double.valueOf(txtComprimento.getText()), txtAfiada.getText());
+        Faca testeFaca = new Faca (txtMaterial.getText(), Double.valueOf(txtComprimento.getText()), txtAfiada.getText());
         txtMaterial.setText(""); txtComprimento.setText(""); txtAfiada.setText("");
-        testeF.exibirInformacoes();
+        testeFaca.exibirInformacoes();
     }
 
     @FXML
     void afiar(ActionEvent event) {
-        Faca testeF = new Faca (txtMaterial.getText(), Double.valueOf(txtComprimento.getText()), txtAfiada.getText());
-        testeF.afiar();
+        Faca testeFaca = new Faca (txtMaterial.getText(), Double.valueOf(txtComprimento.getText()), txtAfiada.getText());
         txtMaterial.setText(""); txtComprimento.setText(""); txtAfiada.setText("");
+        testeFaca.afiar();
     }
 }

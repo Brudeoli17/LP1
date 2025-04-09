@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.control.TextArea;
 
 public class ArvoreController {
 
@@ -23,17 +24,20 @@ public class ArvoreController {
     private TextField txtIdade;
 
     @FXML
+    private TextArea txtResultadoArvore;
+
+    @FXML
     void cresceu(ActionEvent event) {
     Arvore testeArvore = new Arvore (txtEspecie.getText(), Double.valueOf(txtAltura.getText()), Integer.valueOf(txtIdade.getText()));
     txtAltura.setText(""); txtEspecie.setText(""); txtIdade.setText("");
-    testeArvore.cresceu();
+    txtResultadoArvore.setText(testeArvore.cresceu());
     }
 
     @FXML
     void envelhecer(ActionEvent event) {
     Arvore testeArvore = new Arvore (txtEspecie.getText(), Double.valueOf(txtAltura.getText()), Integer.valueOf(txtIdade.getText()));
     txtAltura.setText(""); txtEspecie.setText(""); txtIdade.setText("");
-    testeArvore.envelhecer();
+    txtResultadoArvore.setText(testeArvore.envelhecer());
 
     }
 

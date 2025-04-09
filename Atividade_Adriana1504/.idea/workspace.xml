@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="adicionando as outras classes">
+    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="adicionando as classes Controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Arbusto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Arbusto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArbustoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArbustoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Arvore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Arvore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Faca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Faca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FacaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FacaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743882153745</updated>
       <workItem from="1743882155013" duration="27684000" />
-      <workItem from="1744235422978" duration="594000" />
+      <workItem from="1744235422978" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="Feito o menuController e acrescendado a faca">
       <option name="closed" value="true" />
@@ -106,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744156487742</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adicionando as classes Controller">
+      <option name="closed" value="true" />
+      <created>1744236250849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744236250849</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feito o menuController e acrescendado a faca" />
     <MESSAGE value="adicionando as outras classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando as outras classes" />
+    <MESSAGE value="adicionando as classes Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando as classes Controller" />
   </component>
 </project>

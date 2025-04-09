@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.control.TextArea;
 
 public class ArbustoController {
 
@@ -23,17 +24,20 @@ public class ArbustoController {
     private TextField txtEspecie;
 
     @FXML
+    private TextArea txtResultado;
+
+    @FXML
     void crescer(ActionEvent event) {
     Arbusto TesteArbusto = new Arbusto(txtEspecie.getText(), Double.valueOf(txtAltura.getText()), txtCorFolha.getText());
     txtAltura.setText(""); txtCorFolha.setText(""); txtEspecie.setText("");
-    TesteArbusto.crescer();
+    txtResultado.setText(TesteArbusto.crescer());
     }
 
     @FXML
     void mudarCorFolhas(ActionEvent event) {
         Arbusto TesteArbusto = new Arbusto(txtEspecie.getText(), Double.valueOf(txtAltura.getText()), txtCorFolha.getText());
         txtAltura.setText(""); txtCorFolha.setText(""); txtEspecie.setText("");
-        TesteArbusto.mudarCorFolhas();
+        txtResultado.setText(TesteArbusto.mudarCorFolhas());
 
     }
 

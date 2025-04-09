@@ -15,13 +15,13 @@ public class Arbusto {
         System.out.println("Espécie: " + this.especie + ", Altura: " + this.altura + " metros, Cor das folhas: " + this.corFolhas);
     }
 
-    public void crescer() {
+    public String crescer() {
         Double metros = altura + 5;
-        System.out.println("O arbusto da espécie " + this.especie + " cresceu 5 metros e agora sua altura é de: " + metros + ".");
+        return ("O arbusto da espécie " + this.especie + " cresceu 5 metros e agora sua altura é de: " + metros + ".");
     }
 
-    public void mudarCorFolhas() {
+    public String mudarCorFolhas() {
         String NovaCor = "Rosa";
-        System.out.println("As folhas do arbusto era da cor: " + this.corFolhas + " e agora são da cor:" + NovaCor);
+        return ("As folhas do arbusto era da cor: " + this.corFolhas + " e agora são da cor:" + NovaCor);
     }
 }

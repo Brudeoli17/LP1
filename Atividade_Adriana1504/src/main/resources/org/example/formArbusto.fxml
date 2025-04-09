@@ -28,6 +28,5 @@
          </font>
       </Label>
       <TextField fx:id="txtCorFolha" layoutX="286.0" layoutY="194.0" prefHeight="35.0" prefWidth="266.0" />
-      <Label layoutX="93.0" layoutY="320.0" onDragDetected="#crescer" prefHeight="54.0" prefWidth="386.0" />
    </children>
 </AnchorPane>

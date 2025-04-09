@@ -15,7 +15,7 @@ public class MenuController {
                 FacaController controller = loader.getController();
 
                 Stage stage = new Stage();
-                stage.setTitle("Informações");
+                stage.setTitle("Faca");
                 stage.setScene(new Scene(root));
                 stage.show();
 
@@ -32,7 +32,7 @@ public class MenuController {
             ArbustoController controller = loader.getController();
 
             Stage stage = new Stage();
-            stage.setTitle("Informações");
+            stage.setTitle("Arbusto");
             stage.setScene(new Scene(root));
             stage.show();
 
@@ -40,6 +40,24 @@ public class MenuController {
             e.printStackTrace();
         }
     }
+
+        public void ArvoreController() {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("formArvore.fxml"));
+                Parent root = loader.load();
+
+                ArvoreController controller = loader.getController();
+
+                Stage stage = new Stage();
+                stage.setTitle("Arvore");
+                stage.setScene(new Scene(root));
+                stage.show();
+
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+    }
+
 }
 
 

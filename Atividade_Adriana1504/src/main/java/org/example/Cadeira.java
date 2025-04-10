@@ -15,13 +15,13 @@ public class Cadeira {
         System.out.println("Material: " + this.material + ", Cor: " + this.cor + ", Número de pernas: " + this.numeroDePernas);
     }
 
-    public void mudarMaterial(String novoMaterial) {
-        this.material = novoMaterial;
-        System.out.println("O material da cadeira foi alterado para " + novoMaterial);
+    public String novaCor() {
+        String novaCor = "Verde";
+        return ("A cadeira foi pintada, sua nova cor é: " + novaCor);
     }
 
-    public void ajustarNumeroDePernas(int novoNumeroDePernas) {
-        this.numeroDePernas = novoNumeroDePernas;
-        System.out.println("O número de pernas da cadeira foi ajustado para " + novoNumeroDePernas);
+    public String ajustarNumeroDePernas() {
+         Integer QtdPernas = numeroDePernas + 1;
+         return ("Foi acrecentado 1 perna na cadeira, agora a mesma tem um total de " + QtdPernas + " pernas.");
     }
 }

@@ -15,14 +15,13 @@ public class Cachorro {
         System.out.println("Nome: " + this.nome + ", Raça: " + this.raca + ", Idade: " + this.idade + " anos");
     }
 
-    public void mudarRaca(String novaRaca) {
-        this.raca = novaRaca;
-        System.out.println("A raça do cachorro " + this.nome + " foi alterada para " + novaRaca);
+    public String mudarRaca() {
+        String RacaNew = "Pastor Alemão";
+        return ("A raça do cachorro " + this.nome + " foi alterada para " + RacaNew);
     }
 
-    public void ajustarIdade(int novaIdade) {
-        this.idade = novaIdade;
-        System.out.println("A idade do cachorro " + this.nome + " foi ajustada para " + novaIdade + " anos");
+    public String ajustarIdade() {
+        Integer NewIdade = idade + 1;
+        return ("A idade do cachorro " + this.nome + " foi ajustada para: " + NewIdade);
     }
 }
-

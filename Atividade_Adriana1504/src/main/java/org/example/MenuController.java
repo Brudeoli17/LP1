@@ -58,6 +58,40 @@ public class MenuController {
             }
     }
 
+    public void CachorroController() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("formCachorro.fxml"));
+            Parent root = loader.load();
+
+            CachorroController controller = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Cachorro");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void CadeiraController() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("formCadeira.fxml"));
+            Parent root = loader.load();
+
+            CadeiraController controller = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Cadeira");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
 }
 
 

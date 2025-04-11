@@ -15,14 +15,14 @@ public class Flor {
         System.out.println("Nome: " + this.nome + ", Cor: " + this.cor + ", Preço: R$" + this.preco);
     }
 
-    public void mudarCor(String novaCor) {
-        this.cor = novaCor;
-        System.out.println("A cor da flor " + this.nome + " foi alterada para " + novaCor);
+    public String florescer() {
+        return ("O botão da flor desabroxou.");
+
     }
 
-    public void ajustarPreco(double novoPreco) {
-        this.preco = novoPreco;
-        System.out.println("O preço da flor " + this.nome + " foi ajustado para R$" + novoPreco);
+    public String ajustarPreco() {
+        Double novoPreco = preco + 5;
+        return ("O preço da flor foi ajustado, seu valor agora é de: R$" + novoPreco );
     }
 }
 

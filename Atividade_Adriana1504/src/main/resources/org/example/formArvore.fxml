@@ -4,31 +4,38 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ArvoreController">
    <children>
-      <Button fx:id="btArvore2" layoutX="172.0" layoutY="264.0" mnemonicParsing="false" onAction="#cresceu" text="Crescer" />
-      <Button fx:id="btArvore3" layoutX="353.0" layoutY="264.0" mnemonicParsing="false" onAction="#envelhecer" text="Envelhecer" />
-      <Label layoutX="93.0" layoutY="50.0" text="Especie">
+      <Button fx:id="btArvore2" layoutX="172.0" layoutY="294.0" mnemonicParsing="false" onAction="#cresceu" text="Crescer" />
+      <Button fx:id="btArvore3" layoutX="353.0" layoutY="294.0" mnemonicParsing="false" onAction="#envelhecer" text="Envelhecer" />
+      <Label layoutX="111.0" layoutY="115.0" text="Especie">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <Label layoutX="93.0" layoutY="104.0" text="Altura">
+      <Label layoutX="133.0" layoutY="169.0" text="Altura">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <Label layoutX="93.0" layoutY="158.0" text="Idade">
+      <Label layoutX="136.0" layoutY="223.0" text="Idade">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="txtEspecie" layoutX="258.0" layoutY="57.0" prefHeight="38.0" prefWidth="275.0" />
-      <TextField fx:id="txtAltura" layoutX="258.0" layoutY="111.0" prefHeight="38.0" prefWidth="275.0" />
-      <TextField fx:id="txtIdade" layoutX="258.0" layoutY="165.0" prefHeight="38.0" prefWidth="275.0" />
-      <TextArea fx:id="txtResultadoArvore" layoutX="55.0" layoutY="312.0" prefHeight="40.0" prefWidth="495.0" />
+      <TextField fx:id="txtEspecie" layoutX="245.0" layoutY="117.0" prefHeight="38.0" prefWidth="275.0" />
+      <TextField fx:id="txtAltura" layoutX="246.0" layoutY="177.0" prefHeight="38.0" prefWidth="275.0" />
+      <TextField fx:id="txtIdade" layoutX="246.0" layoutY="231.0" prefHeight="38.0" prefWidth="275.0" />
+      <TextArea fx:id="txtResultadoArvore" layoutX="55.0" layoutY="342.0" prefHeight="40.0" prefWidth="495.0" />
+      <ImageView fitHeight="116.0" fitWidth="152.0" layoutX="209.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../data/Arvore%20Correto.jpeg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

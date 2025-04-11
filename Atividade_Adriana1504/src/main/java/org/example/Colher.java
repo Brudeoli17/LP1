@@ -2,28 +2,70 @@ package org.example;
 
 public class Colher {
     private String material;
-    private double comprimento;
-    private boolean eDeSobremesa;
+    private String comprimento;
+    private String estado;
 
-    public Colher(String material, double comprimento, boolean eDeSobremesa) {
+    public Colher(String material, String comprimento, String estado  ) {
         this.material = material;
         this.comprimento = comprimento;
-        this.eDeSobremesa = eDeSobremesa;
+        this.estado = estado ;
     }
 
     public void exibirInformacoes() {
-        String tipo = this.eDeSobremesa ? "de sobremesa" : "normal";
-        System.out.println("Material: " + this.material + ", Comprimento: " + this.comprimento + " cm, Tipo: " + tipo);
+        System.out.println("Material: " + this.material + ", Comprimento: " + this.comprimento);
     }
 
-    public void mudarMaterial(String novoMaterial) {
-        this.material = novoMaterial;
-        System.out.println("O material da colher foi alterado para " + novoMaterial);
+    public String utilizacao () {;
+        switch (comprimento) {
+            case "1":
+            case "2":
+            case "3":
+            case "4":
+            case "5":
+               comprimento = "A Colher é de Café.";
+               return (comprimento);
+            case "6":
+            case "7":
+            case "8":
+            case "9":
+            case "10":
+                comprimento = "A colher é de Chá.";
+                return (comprimento);
+            case "11":
+            case "12":
+            case "13":
+            case "14":
+            case "15":
+                comprimento = "A colher é de Sobremesa.";
+                return (comprimento);
+            case "16":
+            case "17":
+            case "18":
+            case "19":
+            case "20":
+                comprimento = "A colher é de Sopa.";
+                return (comprimento);
+
+            default:
+                comprimento = "A colher deve ser utilizada para mexer a comida.";
+                return (comprimento);
+        }
+
     }
 
-    public void ajustarComprimento(double novoComprimento) {
-        this.comprimento = novoComprimento;
-        System.out.println("O comprimento da colher foi ajustado para " + novoComprimento + " cm");
+    public String utilizavel(){
+        switch (estado){
+            case "enferrujado":
+            case "suja":
+                estado = "A colher não pode ser utilizada.";
+                return(estado);
+            case "limpa":
+                estado = "A colher pode ser utilizada.";
+                return (estado);
+            default:
+                estado = "Informe um estado válido: enferrujada, suja ou limpa";
+                return (estado);
+        }
+
     }
 }
-

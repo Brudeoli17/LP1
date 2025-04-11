@@ -92,6 +92,23 @@ public class MenuController {
         }
     }
 
+    public void ColherController() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("formColher.fxml"));
+            Parent root = loader.load();
+
+            ColherController controller = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Colher");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
 }
 
 

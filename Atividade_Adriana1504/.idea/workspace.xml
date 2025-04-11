@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="adicionado o TextArea">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/FormCadeira.fxml" afterDir="false" />
+    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="adicionado o as classes cachorro e cadeira">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Arbusto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Arvore Correto.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Cachorro correto.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Colher.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Faca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Flor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Gato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/MesaCadeira.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Taca.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Vaca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formColher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFlor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CachorroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CachorroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cadeira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cadeira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CadeiraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CadeiraController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArbustoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArbustoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Colher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Colher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Flor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Flor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formArvore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formArvore.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formCachorro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formCachorro.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" afterDir="false" />
     </list>
@@ -51,23 +64,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruna/Documents/Repositórios/LP1/Atividade_Adriana2403 correto/out/production/Atividade_Adriana2403 correto&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/bruna/Documents/Repositórios/LP1/Atividade_Adriana1504/src/main/resources/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruna\Documents\Repositórios\LP1\Atividade_Adriana1504\src\main\resources\data" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +104,9 @@
       <option name="presentableId" value="Default" />
       <updated>1743882153745</updated>
       <workItem from="1743882155013" duration="27684000" />
-      <workItem from="1744235422978" duration="6594000" />
+      <workItem from="1744235422978" duration="9379000" />
+      <workItem from="1744248928295" duration="184000" />
+      <workItem from="1744323219031" duration="11179000" />
     </task>
     <task id="LOCAL-00001" summary="Feito o menuController e acrescendado a faca">
       <option name="closed" value="true" />
@@ -127,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744237967163</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adicionado o as classes cachorro e cadeira">
+      <option name="closed" value="true" />
+      <created>1744246407784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744246407784</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +167,8 @@
     <MESSAGE value="adicionando as outras classes" />
     <MESSAGE value="adicionando as classes Controller" />
     <MESSAGE value="adicionado o TextArea" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado o TextArea" />
+    <MESSAGE value="adicionado o as classes cachorro e cadeira" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado o as classes cachorro e cadeira" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -147,6 +177,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Cadeira.java</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Colher.java</url>
+          <line>55</line>
+          <properties class="org.example.Colher" method="utilizavel">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

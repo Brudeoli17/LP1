@@ -13,8 +13,8 @@
       <Button fx:id="btCachorro1" layoutX="95.0" layoutY="208.0" mnemonicParsing="false" onAction="#CachorroController" prefHeight="26.0" prefWidth="174.0" text="Cachorro" />
       <Button fx:id="btCadeira1" layoutX="95.0" layoutY="247.0" mnemonicParsing="false" onAction="#CadeiraController" prefHeight="26.0" prefWidth="174.0" text="Cadeira" />
       <Button fx:id="btColher1" layoutX="95.0" layoutY="285.0" mnemonicParsing="false" onAction="#ColherController" prefHeight="26.0" prefWidth="174.0" text="Colher" />
-      <Button fx:id="brFlor" layoutX="330.0" layoutY="167.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="Flor" />
-      <Button fx:id="btGato1" layoutX="330.0" layoutY="208.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="Gato" />
+      <Button fx:id="brFlor" layoutX="330.0" layoutY="167.0" mnemonicParsing="false" onAction="#FlorController" prefHeight="26.0" prefWidth="174.0" text="Flor" />
+      <Button fx:id="btGato1" layoutX="330.0" layoutY="208.0" mnemonicParsing="false" onAction="#GatoController" prefHeight="26.0" prefWidth="174.0" text="Gato" />
       <Button fx:id="btTaca" layoutX="330.0" layoutY="247.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="Taça" />
       <Button fx:id="btVaca1" layoutX="330.0" layoutY="285.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="Vaca" />
       <Label layoutX="165.0" layoutY="55.0" prefHeight="54.0" prefWidth="270.0" text="Escolha a Classe:">

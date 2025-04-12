@@ -109,6 +109,41 @@ public class MenuController {
         }
     }
 
+    public void FlorController() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("formFlor.fxml"));
+            Parent root = loader.load();
+
+            FlorController controller = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Flor");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void GatoController() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("formGato.fxml"));
+            Parent root = loader.load();
+
+            GatoController controller = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Gato");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+
 }
 
 

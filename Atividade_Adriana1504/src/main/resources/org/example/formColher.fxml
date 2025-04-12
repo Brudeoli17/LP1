@@ -4,32 +4,38 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ColherController">
    <children>
-      <Button fx:id="btColher2" layoutX="159.0" layoutY="260.0" mnemonicParsing="false" onAction="#utilizacao" text="Utilidade" />
-      <Button fx:id="btColher3" layoutX="361.0" layoutY="260.0" mnemonicParsing="false" onAction="#utilizavel" text="Utilizavel" />
-      <Label layoutX="84.0" layoutY="83.0" prefHeight="54.0" prefWidth="165.0" text="Material">
+      <Button fx:id="btColher2" layoutX="167.0" layoutY="286.0" mnemonicParsing="false" onAction="#utilizacao" text="Utilidade" />
+      <Button fx:id="btColher3" layoutX="373.0" layoutY="286.0" mnemonicParsing="false" onAction="#utilizavel" text="Utilizavel" />
+      <Label layoutX="120.0" layoutY="126.0" prefHeight="54.0" prefWidth="165.0" text="Material">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <Label layoutX="84.0" layoutY="131.0" prefHeight="54.0" prefWidth="256.0" text="Comprimento">
+      <Label layoutX="35.0" layoutY="170.0" prefHeight="54.0" prefWidth="256.0" text="Comprimento">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <Label layoutX="83.0" layoutY="173.0" prefHeight="54.0" prefWidth="256.0" text="Estado">
+      <Label layoutX="148.0" layoutY="216.0" prefHeight="54.0" prefWidth="256.0" text="Estado">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="txtEstado" layoutX="310.0" layoutY="91.0" prefHeight="38.0" prefWidth="275.0" />
-      <TextField fx:id="txtComprimento" layoutX="310.0" layoutY="135.0" prefHeight="38.0" prefWidth="275.0" />
-      <TextField fx:id="txtMaterial" layoutX="310.0" layoutY="181.0" prefHeight="38.0" prefWidth="275.0" />
-      <TextArea fx:id="txtRespostaColher" layoutX="114.0" layoutY="321.0" prefHeight="48.0" prefWidth="370.0" />
+      <TextField fx:id="txtEstado" layoutX="276.0" layoutY="134.0" prefHeight="38.0" prefWidth="275.0" />
+      <TextField fx:id="txtComprimento" layoutX="276.0" layoutY="178.0" prefHeight="38.0" prefWidth="275.0" />
+      <TextField fx:id="txtMaterial" layoutX="276.0" layoutY="224.0" prefHeight="38.0" prefWidth="275.0" />
+      <TextArea fx:id="txtRespostaColher" layoutX="57.0" layoutY="334.0" prefHeight="40.0" prefWidth="495.0" />
+      <ImageView fitHeight="129.0" fitWidth="176.0" layoutX="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../data/Colher.jpeg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

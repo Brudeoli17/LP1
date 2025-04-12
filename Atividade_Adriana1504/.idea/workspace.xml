@@ -4,28 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="adicionado o as classes cachorro e cadeira">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Arbusto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Arvore Correto.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Cachorro correto.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Colher.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Faca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Flor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Gato.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/MesaCadeira.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Taca.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/Vaca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formColher.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFlor.fxml" afterDir="false" />
+    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="adicionando as fotos">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formGato.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArbustoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArbustoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Colher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Colher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Flor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Flor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FlorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FlorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GatoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/FormCadeira.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/FormCadeira.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formArvore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formArvore.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formCachorro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formCachorro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formColher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formColher.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formFlor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFlor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +62,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/bruna/Documents/Repositórios/LP1/Atividade_Adriana1504/src/main/resources/data",
+    "last_opened_file_path": "C:/Users/bruna/Documents/Repositórios/LP1/Atividade_Adriana1504/target/classes/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruna\Documents\Repositórios\LP1\Atividade_Adriana1504\target\classes\data" />
       <recent name="C:\Users\bruna\Documents\Repositórios\LP1\Atividade_Adriana1504\src\main\resources\data" />
     </key>
   </component>
@@ -106,7 +97,7 @@
       <workItem from="1743882155013" duration="27684000" />
       <workItem from="1744235422978" duration="9379000" />
       <workItem from="1744248928295" duration="184000" />
-      <workItem from="1744323219031" duration="11179000" />
+      <workItem from="1744323219031" duration="14223000" />
     </task>
     <task id="LOCAL-00001" summary="Feito o menuController e acrescendado a faca">
       <option name="closed" value="true" />
@@ -156,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744246407784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adicionando as fotos">
+      <option name="closed" value="true" />
+      <created>1744411541905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744411541905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +167,8 @@
     <MESSAGE value="adicionando as classes Controller" />
     <MESSAGE value="adicionado o TextArea" />
     <MESSAGE value="adicionado o as classes cachorro e cadeira" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado o as classes cachorro e cadeira" />
+    <MESSAGE value="adicionando as fotos" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando as fotos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -18,19 +18,19 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="txtEspecie" layoutX="261.0" layoutY="124.0" prefHeight="35.0" prefWidth="266.0" />
+      <TextField fx:id="txtEspecie" layoutX="261.0" layoutY="124.0" prefHeight="38.0" prefWidth="275.0" />
       <Label layoutX="144.0" layoutY="169.0" prefHeight="54.0" prefWidth="155.0" text="Altura">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="txtAltura" layoutX="261.0" layoutY="179.0" prefHeight="35.0" prefWidth="266.0" />
+      <TextField fx:id="txtAltura" layoutX="261.0" layoutY="179.0" prefHeight="38.0" prefWidth="275.0" />
       <Label layoutX="38.0" layoutY="223.0" prefHeight="54.0" prefWidth="212.0" text="Cor da Folha">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="txtCorFolha" layoutX="261.0" layoutY="233.0" prefHeight="35.0" prefWidth="266.0" />
+      <TextField fx:id="txtCorFolha" layoutX="261.0" layoutY="233.0" prefHeight="38.0" prefWidth="275.0" />
       <TextArea fx:id="txtResultado" layoutX="52.0" layoutY="344.0" prefHeight="40.0" prefWidth="495.0" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="122.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fitHeight="120.0" fitWidth="121.0" layoutX="231.0" layoutY="1.0">

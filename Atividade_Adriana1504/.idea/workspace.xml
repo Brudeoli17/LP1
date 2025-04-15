@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="feito as classes gato, flor, adicionado as fotos nas outras classes">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formTaca.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formVaca.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GatoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Taca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Taca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TacaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TacaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VacaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/VacaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="finalizado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +86,7 @@
       <workItem from="1744248928295" duration="184000" />
       <workItem from="1744323219031" duration="14223000" />
       <workItem from="1744416364155" duration="63000" />
-      <workItem from="1744753787538" duration="5335000" />
+      <workItem from="1744753787538" duration="5390000" />
     </task>
     <task id="LOCAL-00001" summary="Feito o menuController e acrescendado a faca">
       <option name="closed" value="true" />
@@ -163,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744416404456</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finalizado">
+      <option name="closed" value="true" />
+      <created>1744759208027</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744759208027</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +174,8 @@
     <MESSAGE value="adicionado o as classes cachorro e cadeira" />
     <MESSAGE value="adicionando as fotos" />
     <MESSAGE value="feito as classes gato, flor, adicionado as fotos nas outras classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feito as classes gato, flor, adicionado as fotos nas outras classes" />
+    <MESSAGE value="finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

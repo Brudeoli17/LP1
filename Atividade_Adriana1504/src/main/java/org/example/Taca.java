@@ -2,28 +2,40 @@ package org.example;
 
 public class Taca {
     private String material;
-    private double capacidade;
-    private boolean eCristal;
+    private Integer capacidade;
+    private String tamanho;
 
-    public Taca(String material, double capacidade, boolean eCristal) {
+    public Taca(String material, Integer capacidade, String tamanho) {
         this.material = material;
         this.capacidade = capacidade;
-        this.eCristal = eCristal;
+        this.tamanho = tamanho;
     }
 
     public void exibirInformacoes() {
-        String tipo = this.eCristal ? "de cristal" : "comum";
-        System.out.println("Material: " + this.material + ", Capacidade: " + this.capacidade + " ml, Tipo: " + tipo);
+
+        System.out.println(this.tamanho);
     }
 
-    public void mudarMaterial(String novoMaterial) {
-        this.material = novoMaterial;
-        System.out.println("O material da taça foi alterado para " + novoMaterial);
+    public String tacaComun() {
+        if (material.equals("cristal") ){
+        material = "A taça é de material nobre.";
+        return (material);}
+        else{
+            material = "A taça é de material comum.";
+        return (material);}
+
     }
 
-    public void ajustarCapacidade(double novaCapacidade) {
-        this.capacidade = novaCapacidade;
-        System.out.println("A capacidade da taça foi ajustada para " + novaCapacidade + " ml");
+    public String verificaCapacidade() {
+       if (capacidade >= 1 && capacidade <= 200){
+           return ("A taça é pequena.");
+       }
+         else if (capacidade >= 201 && capacidade <= 300){
+             return ("A taça é média.");
+        }
+        else {
+            return ("A taça é grande.");
+        }
     }
 }
 

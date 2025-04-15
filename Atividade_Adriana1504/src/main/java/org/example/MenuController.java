@@ -143,6 +143,40 @@ public class MenuController {
         }
     }
 
+    public void TacaController() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("formTaca.fxml"));
+            Parent root = loader.load();
+
+            TacaController controller = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Taca");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void VacaController() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("formVaca.fxml"));
+            Parent root = loader.load();
+
+            VacaController controller = loader.getController();
+
+            Stage stage = new Stage();
+            stage.setTitle("Vaca");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
 
 }
 

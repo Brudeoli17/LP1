@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="adicionando as fotos">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formGato.fxml" afterDir="false" />
+    <list default="true" id="622aedbf-5be0-419e-8604-dfe85738fb20" name="Changes" comment="feito as classes gato, flor, adicionado as fotos nas outras classes">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formTaca.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/formVaca.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FlorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FlorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Gato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GatoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/FormCadeira.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/FormCadeira.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formArbusto.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formColher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formColher.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFaca.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formFlor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formFlor.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Taca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Taca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TacaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TacaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VacaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/VacaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/formMenu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +96,8 @@
       <workItem from="1744235422978" duration="9379000" />
       <workItem from="1744248928295" duration="184000" />
       <workItem from="1744323219031" duration="14223000" />
+      <workItem from="1744416364155" duration="63000" />
+      <workItem from="1744753787538" duration="5335000" />
     </task>
     <task id="LOCAL-00001" summary="Feito o menuController e acrescendado a faca">
       <option name="closed" value="true" />
@@ -155,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744411541905</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feito as classes gato, flor, adicionado as fotos nas outras classes">
+      <option name="closed" value="true" />
+      <created>1744416404456</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744416404456</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +176,8 @@
     <MESSAGE value="adicionado o TextArea" />
     <MESSAGE value="adicionado o as classes cachorro e cadeira" />
     <MESSAGE value="adicionando as fotos" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando as fotos" />
+    <MESSAGE value="feito as classes gato, flor, adicionado as fotos nas outras classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feito as classes gato, flor, adicionado as fotos nas outras classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,6 +195,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Gato.java</url>
+          <line>35</line>
+          <properties class="org.example.Gato" method="cortarGarra">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Taca.java</url>
+          <line>18</line>
+          <properties class="org.example.Taca" method="tacaComun">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

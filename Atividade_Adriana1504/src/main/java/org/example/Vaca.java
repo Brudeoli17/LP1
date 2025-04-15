@@ -15,13 +15,11 @@ public class Vaca {
         System.out.println("Nome: " + this.nome + ", Idade: " + this.idade + " anos, Cor: " + this.cor);
     }
 
-    public void envelhecer(int anos) {
-        this.idade += anos;
-        System.out.println("A vaca " + this.nome + " agora tem " + this.idade + " anos.");
+    public String comer() {
+        return ("A vaca esta comendo.");
     }
 
-    public void mudarCor(String novaCor) {
-        this.cor = novaCor;
-        System.out.println("A vaca " + this.nome + " agora é " + novaCor + ".");
+    public String beberAgua() {
+        return ("A vaca esta bebendo àgua.");
     }
 }

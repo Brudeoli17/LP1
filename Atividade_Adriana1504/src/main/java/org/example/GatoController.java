@@ -27,17 +27,19 @@ public class GatoController {
     private TextField txtTamanhoPelo;
 
     @FXML
-    void cortarGarra(ActionEvent event) {
-        Gato TesteGato = new Gato (txtNome.getText(), txtTamanhoPelo.getText(), txtTamanhoGarra.getText());
-        txtNome.setText("");txtTamanhoPelo.setText("");txtTamanhoGarra.setText("");
-        txtRespostaGato.setText(TesteGato.cortarGarra());
+    void cortarPelo(ActionEvent event) {
+        Gato TesteGato = new Gato(txtNome.getText(), txtTamanhoGarra.getText(), txtTamanhoPelo.getText());
+        txtNome.setText("");
+        txtTamanhoPelo.setText("");
+        txtTamanhoGarra.setText("");
+        txtRespostaGato.setText(TesteGato.cortarPelo());
     }
 
     @FXML
-    void cortarPelo(ActionEvent event) {
-        Gato TesteGato = new Gato (txtNome.getText(), txtTamanhoPelo.getText(), txtTamanhoGarra.getText());
+    void cortarGarra(ActionEvent event) {
+        Gato TesteGato = new Gato (txtNome.getText(), txtTamanhoGarra.getText(), txtTamanhoPelo.getText());
         txtNome.setText("");txtTamanhoPelo.setText("");txtTamanhoGarra.setText("");
-        txtRespostaGato.setText(TesteGato.cortarPelo());
+        txtRespostaGato.setText(TesteGato.cortarGarra());
     }
 
 }
